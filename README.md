@@ -34,7 +34,7 @@ Dirígete al archivo [`commands`](./commands) para encontrar los comandos necesa
 
 - Simula un entorno SSH/Telnet falso para capturar interacciones con atacantes.
 - Expone el puerto 2222 (en lugar del 22).
-- Logs disponibles en `C:/honeypot-logs/crowie/cowrie.log`.
+- Logs disponibles en `C:/honeypot-logs/cowrie/cowrie.log`.
 
 ---
 
@@ -43,7 +43,7 @@ Dirígete al archivo [`commands`](./commands) para encontrar los comandos necesa
 ```
 HONEYPOT-LOGS/
 │
-├── crowie/
+├── cowrie/
 │   └── cowrie.log        # Logs generados por Cowrie
 │
 ├── dionaea/
