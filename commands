@@ -4,7 +4,7 @@ dionaea:
 
 Canary:
 1. docker pull thinkst/opencanary:latest
-2. docker run -d --name opencanary -v C:\honeypot-logs\opencanary\config:/etc/opencanary -v C:\honeypot-logs\opencanary\logs:/var/log/opencanary thinkst/opencanary:latest
+2. docker run -d --name opencanary -v C:\honeypot-logs\opencanary:/etc/opencanaryd/ -v C:\honeypot-logs\opencanary:/var/tmp/ -p 21:21 -p 22:22 -p 80:80 thinkst/opencanary
 
 crowie:
 1. docker pull cowrie/cowrie:latest
